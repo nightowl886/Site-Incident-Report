@@ -2,6 +2,12 @@
 
 # Online Exam Incident Risk Analysis
 
+sir-incident-analysis/
+│
+├── sir_incidents.sql        
+├── incident_analysis.ipynb  
+└── README.md               
+
 ## Project Overview
 Incident log analysis from online proctoring exam platform during peak season.  
 Goal: Identify risk patterns, quantify SLA impact, and propose mitigation strategies.
