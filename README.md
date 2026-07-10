@@ -2,7 +2,14 @@
 
 # Online Exam Incident Risk Analysis
 
-            
+``` 
+sir-incident-analysis/
+
+│
+├── sir_incidents.sql        
+├── incident_analysis.ipynb  # Python Notebook 
+└── README.md                
+``` 
 
 ## Project Overview
 Incident log analysis from online proctoring exam platform during peak season.  
