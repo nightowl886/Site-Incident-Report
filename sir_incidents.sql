@@ -48,18 +48,16 @@ INSERT INTO sir_incidents VALUES
 (24, '2026-05-07 09:00:08', 'network', 'infrastructure', 'high', 'Internet is out'),
 
 (25, '2026-05-07 09:10:29', 'login_failure', 'system', 'medium', 'Name not on the roster'),
-(26, '2026-05-07 12:47:51', 'login_failure', 'system', 'high', 'No valid test found for the eligibility(ticket # 082773581)')
 
-(27, '2026-05-08 09:15:00', 'user_error', 'user', 'low', 'Candidate arrived late for 15 minutes')
+(26, '2026-05-07 12:47:51', 'login_failure', 'system', 'high', 'No valid test found for the eligibility(ticket # 082773581)'),
 
-(28, '2026-05-14 10:17:05', 'network', 'unknown', 'high', 'Three Candidates test window gone blank')
+(27, '2026-05-08 09:15:00', 'user_error', 'user', 'low', 'Candidate arrived late for 15 minutes'),
 
-(29, '2026-05-15 09:56:29', 'login_failure', 'system', 'high', 'The TCNET changed the whole proctors passwords without notifying us(#08296256)
-). '
+(28, '2026-05-14 10:17:05', 'network', 'unknown', 'high', 'Three Candidates test window gone blank'),
 
-(30, '2026-05-15 09:30:08', 'exam_loading_delay', 'system', 'medium', 'It takes 5 mins to log in'
-). 
-(31, '2026-05-15 10:56:08', 'login_failure', 'system', 'high', 'They changed the testing system password as well'
-). 
+(29, '2026-05-15 09:56:29', 'login_failure', 'system', 'high', 'The TCNET changed the whole proctors passwords without notifying us(#08296256)'),
+
+(30, '2026-05-15 09:30:08', 'exam_loading_delay', 'system', 'medium', 'It takes 5 mins to log in'),
+(31, '2026-05-15 10:56:08', 'login_failure', 'system', 'high', 'They changed the testing system password as well'),
 (32, '2026-07-09 09:35:00', 'system_blackout', 'infrastructure', 'high', 
  'All candidates experienced sudden blackout; after re-login, exam timer continued, resulting in ~5 minutes lost');
