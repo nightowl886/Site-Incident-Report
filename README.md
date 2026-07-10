@@ -7,7 +7,7 @@ Incident log analysis from online proctoring exam platform during peak season.
 Goal: Identify risk patterns, quantify SLA impact, and propose mitigation strategies.
 
 ## Dataset
-- Source: SIR system context
+- Source: SIR(Site Incident Report) system context
 - Fields: incident_time, issue_type, category, severity, description
 - Size: 30+ incidents (expanded with blackout case study)
 
