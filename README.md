@@ -4,7 +4,6 @@
 
 ``` 
 sir-incident-analysis/
-
 │
 ├── sir_incidents.sql        
 ├── incident_analysis.ipynb  # Python Notebook 
