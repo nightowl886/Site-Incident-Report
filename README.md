@@ -3,11 +3,23 @@
 # Online Exam Incident Risk Analysis
 
 ``` 
+
 sir-incident-analysis/
 │
-├── sir_incidents.sql        
-├── incident_analysis.ipynb  # Python Notebook 
-└── README.md                
+├── data/
+│   └── sir_incidents.sql
+│
+├── sql/
+│   ├── 1.incident_summary.sql
+│   ├── 2.sla_breach.sql
+│   ├── 3.peak_hour_analysis.sql
+│   ├── 4.root_cause.sql
+│   └── 5.category_breakdown.sql
+│
+├── tableau/
+│   └── dashboard.twbx  
+│
+└── README.md              
 ``` 
 
 ## Project Overview
