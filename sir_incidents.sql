@@ -33,7 +33,7 @@ INSERT INTO sir_incidents VALUES
 (11, '2026-05-01 09:01:03', 'network', 'infrastructure', 'high', 'Test site wifi Failure'),
 (12, '2026-05-01 09:00:42', 'user endpoint', 'infrastructure', 'low', 'Computer cannot turn on'),
 (13, '2026-05-05 09:55:23', 'exam_loading_delay', 'user', 'high', 'Exam session temporarily paused due to environmental disruption caused by noise in the room'),
-(14, '2026-05-05 10:05:08', 'exam_loading_delay', 'system', 'medium', 'page failed to load 3 times'),
+(14, '2026-05-05 10:05:08', 'exam_loading_delay', 'system', 'medium', 'page failed to load several times'),
 (15, '2026-05-05 10:08:37', 'user_error', 'environment_disruption', 'high', 'Session resumed after disruption, but users experienced approximately 20 minutes of lost time'),
 (16, '2026-05-06 09:18:46', 'login_failure', 'system', 'high', 'No eligibility found '),
 (17, '2026-05-06 09:22:59', 'login_failure', 'system', 'high', 'Last name doesnt match'),
