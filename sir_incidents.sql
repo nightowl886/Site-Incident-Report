@@ -54,5 +54,5 @@ INSERT INTO sir_incidents VALUES
 (30, '2026-05-15 09:30:08', 'exam_loading_delay', 'system', 'medium', 'Login process delayed by ~5 minutes'),
 (31, '2026-05-15 10:56:08', 'login_failure', 'system', 'high', 'Temporary authentication error'),
 (32, '2026-07-09 09:35:00', 'system_blackout', 'infrastructure', 'high', 'Sudden blackout; after re-login, timer continued, resulting in time loss'),
-(33, '2026-07-16 10:14:00', 'ui_render_failure', 'system', 'high', 'UI rendering error caused layout distortion and non-functional input elements; session restart required')
+(33, '2026-07-13 10:14:00', 'ui_render_failure', 'system', 'high', 'UI rendering error caused layout distortion and non-functional input elements; session restart required')
 
