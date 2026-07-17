@@ -61,5 +61,5 @@ INSERT INTO sir_incidents VALUES
 (31, '2026-05-15 10:56:08', 'login_failure', 'system', 'high', 'temporary login error'),
 (32, '2026-07-09 09:35:00', 'system_blackout', 'infrastructure', 'high', 
  'All users experienced a sudden blackout; after re-login, the exam timer continued, resulting in time lost. '
- (33, '2026-07-16 10:14:00', 'ui_render_failure', 'system', 'high',
+ (33, '2026-07-13 10:14:00', 'ui_render_failure', 'system', 'high',
  'UI rendering error caused layout distortion and non-functional input elements; issue confirmed at workstation and required session restart');
