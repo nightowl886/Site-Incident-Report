@@ -34,7 +34,7 @@ INSERT INTO sir_incidents VALUES
 (12, '2026-05-01 09:00:42', 'user endpoint', 'infrastructure', 'low', 'Computer cannot turn on'),
 (13, '2026-05-05 09:55:23', 'exam_loading_delay', 'user', 'high', 'Exam session temporarily paused due to environmental disruption caused by noise in the room'),
 (14, '2026-05-05 10:05:08', 'exam_loading_delay', 'system', 'medium', 'page failed to load 3 times'),
-(15, '2026-05-05 10:08:37', 'user_error', 'environment_disruption', 'high', 'When candidates logged back, they lost 20 mins '),
+(15, '2026-05-05 10:08:37', 'user_error', 'environment_disruption', 'high', 'Session resumed after disruption, but users experienced approximately 20 minutes of lost time'),
 (16, '2026-05-06 09:18:46', 'login_failure', 'system', 'high', 'No eligibility found '),
 (17, '2026-05-06 09:22:59', 'login_failure', 'system', 'high', 'Last name doesnt match'),
 (18, '2026-05-06 09:40:24', 'login_failure', 'system', 'high', 'No written test found'),
@@ -53,11 +53,13 @@ INSERT INTO sir_incidents VALUES
 
 (27, '2026-05-08 09:15:00', 'user_error', 'user', 'low', 'User arrived late '),
 
-(28, '2026-05-14 10:17:05', 'network', 'unknown', 'high', 'Three Candidates test window gone blank'),
+(28, '2026-05-14 10:17:05', 'network', 'unknown', 'high', 'Exam window blank due to temporary system error'),
 
-(29, '2026-05-15 09:56:29', 'login_failure', 'system', 'high', ''),
+(29, '2026-05-15 09:56:29', 'login_failure', 'system', 'high', 'temporary login error'),
 
 (30, '2026-05-15 09:30:08', 'exam_loading_delay', 'system', 'medium', 'It takes 5 mins to log in'),
 (31, '2026-05-15 10:56:08', 'login_failure', 'system', 'high', 'temporary login error'),
 (32, '2026-07-09 09:35:00', 'system_blackout', 'infrastructure', 'high', 
- 'All users experienced a sudden blackout; after re-login, the exam timer continued, resulting in ~5 minutes lost. ';
+ 'All users experienced a sudden blackout; after re-login, the exam timer continued, resulting in time lost. '
+ (33, '2026-07-16 10:14:00', 'ui_render_failure', 'system', 'high',
+ 'UI rendering error caused layout distortion and non-functional input elements; issue confirmed at workstation and required session restart'),;
