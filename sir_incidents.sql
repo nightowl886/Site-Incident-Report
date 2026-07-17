@@ -45,7 +45,7 @@ INSERT INTO sir_incidents VALUES
 (22, '2026-05-06 10:00:00', 'system_crash', 'unknown', 'high', 'Unknown source crash'),
 (23, '2026-05-06 10:05:00', 'user_error', 'user', 'high', 'User mistake caused a non-critical issue'),
 
-(24, '2026-05-07 09:00:08', 'network', 'infrastructure', 'high', 'Internet is out, no wifi'),
+(24, '2026-05-07 09:00:08', 'network', 'infrastructure', 'high', 'Unexpected Internet crash'),
 
 (25, '2026-05-07 09:10:29', 'login_failure', 'system', 'medium', ' User record not found in system during authentication'),
 
@@ -62,4 +62,4 @@ INSERT INTO sir_incidents VALUES
 (32, '2026-07-09 09:35:00', 'system_blackout', 'infrastructure', 'high', 
  'All users experienced a sudden blackout; after re-login, the exam timer continued, resulting in time lost. '
  (33, '2026-07-16 10:14:00', 'ui_render_failure', 'system', 'high',
- 'UI rendering error caused layout distortion and non-functional input elements; issue confirmed at workstation and required session restart'),;
+ 'UI rendering error caused layout distortion and non-functional input elements; issue confirmed at workstation and required session restart');
